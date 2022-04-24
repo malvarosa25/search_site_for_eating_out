@@ -62,7 +62,7 @@ def shop_search(v_g, la, lo, v_r):
     response = requests.get(
         'http://webservice.recruit.co.jp/hotpepper/gourmet/v1/',
         params={
-        'key': '02760d21efb5d027',
+        'key': 'xxxxxxxxxxxxxx',
         'genre': v_g,
         'lat': la,
         'lng': lo,
